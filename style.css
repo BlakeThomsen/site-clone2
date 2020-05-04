@@ -1,0 +1,35 @@
+main { 
+  padding-top: 70px; }
+
+@media only screen and (max-width: 992px) {
+  #bgtext {
+    visibility: hidden;
+  }
+}
+
+.pushdown {
+    position: absolute;
+    top: 20px;
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+.bgwater {
+  background-image: url('water.jpg');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.dropshadow {
+  text-shadow: 1px 1px black;
+}
+
+.dropshadowlight {
+  text-shadow: 1px 1px white;
+}
+
+.footerbox {
+  height: 8vw;
+}
